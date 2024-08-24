@@ -1,9 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batch-10 Asignment-03</title>
+    <!-- animation link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Google font (manrope)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -132,10 +135,10 @@
             <div class="hero bg-base-200 ">
               <div class="hero-content text-center">
                 <div class="container mx-auto">
-                    <div class=" lg:w-8/12 mx-auto">
+                    <div   class=" lg:w-8/12 mx-auto  ">
                       <img class=" w-[600px] lg:w-[710px] h-auto object-contain"  src="./B10-Assignment-03/assets/banner.png" alt="">
                     </div>
-                  <h1 class=" w-full text-3xl lg:text-6xl font-extrabold ">A barn house of this design has a striking appearance</h1>
+                  <h1   class=" w-full text-3xl lg:text-6xl font-extrabold ">A barn house of this design has a striking appearance</h1>
                   <p class="py-6 scale-110 text-lg font-medium opacity-60">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, <br>
                      and large windows that flood the space with natural light.
@@ -157,7 +160,7 @@
                <img class="lg:w-[573px] lg:h-[545px] lg:translate-x-14  object-cover" src="./B10-Assignment-03/assets/Rectangle.png" alt="">
               <div class="lg:space-y-8 space-y-5">
                 <!-- content-->
-                 <div class="flex flex-col lg:-translate-y-9 justify-start items-start">
+                 <div  class="flex flex-col lg:-translate-y-9 justify-start items-start">
                    <h4 class="text-lg font-bold  -translate-y-3"><i class="fa-solid fa-arrow-right "></i>About Us</h4>
                    <h1 class="lg:text-6xl text-3xl  font-extrabold
                       ">We design thoughtful, liveable spaces</h1>
@@ -422,7 +425,7 @@
       <!-- input  section-->
        <section class="mt-40">
 
-        <div class="bg-[url('./B10-Assignment-03/assets/bg.jpg')] container mx-auto lg:w-full opacity-65 h-[904px] border  ">
+        <div class="bg-[url('./B10-Assignment-03/assets/bg.jpg')] container mx-auto lg:w-full opacity-65 h-[904px]  ">
              <div class="text-center space-y-6 mt-10">
               <button class="bg-lime-200 px-8 py-4 rounded-xl text-xl font-bold"><i class="fa-solid fa-arrow-right -translate-x-2"></i>Let’s Connect</button>
               <h1 class=" lg:text-6xl text-3xl font-extrabold text-black z-10">Let’s Discuss Next Project</h1>
@@ -454,7 +457,7 @@
                 <textarea class="lg:px-44 mx-auto px-4  text-center lg:py-5 py-10 rounded-xl border border-lime-600 shadow-xl" name="message" rows="10" cols="30" >
                   Write your message here
                   </textarea>
-                  <button class="flex gap-4 justify-center items-center bg-lime-500 shadow-2xl 
+                  <button class="flex gap-4 justify-center items-center bg-lime-400 shadow-2xl  shadow-lime-300
                   lg:w-[627px] w-72 mx-auto h-14 mt-5 rounded-xl">
                     <div><h1 class="lg:text-2xl font-bold">Send Mail</h1></div>
                     <div class="lg:w-9 w-8 lg:h-9 h-8 text-center  bg-black text-white rounded-full"> <i class="fa-solid fa-arrow-right text-center lg:py-4 -rotate-45 lg:-translate-y-1 translate-y-1"></i></div>
@@ -467,6 +470,35 @@
 
        </section>
        
+      <footer class=" lg:mt-14 mt-80">
       
+          <!-- footer content-->
+          
+          <div class="  bg-black  w-full lg:h-[480px] h-auto border text-white space-y-6 lg:py-28  py-20">
+            <!-- icon flex-->
+            <div class="flex justify-center items-center gap-2  mt">
+              <div><i class="fa-solid fa-arrow-right bg-lime-300 w-8 h-8 rounded-full -rotate-45 text-black text-lg px-2 py-1 font-bold"></i></div>
+              <div> <h1 class="lg:text-3xl text-2xl  font-extrabold">Rinterio</h1></div>
+            </div>
+            <p class="text-center lg:text-lg text-base opacity-50 font-semibold">At Impress, our clients' success is our priority. We deliver tailored solutions and <br>
+               unparalleled service, earning the trust and satisfaction of businesses across various sectors.</p>
+
+               <div class="flex  lg:flex-row  flex-col justify-center items-center lg:gap-24 gap-9 lg:text-xl text-lg lg:font-extrabold font-semibold opacity-65">
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Portfolio</a>
+                <a href="">Blogs</a>
+                <a href="">Contack Us</a>
+               
+               </div>
+              <div class="flex justify-center items-center translate-y-8">
+                <button class="flex justify-center gap-3 items-center lg:text-2xl text-lg  text-white font-semibold bg-lime-300 lg:px-5 px-3 shadow-2xl shadow-lime-300 lg:py-3 py-2 rounded-xl text-center">
+                  <span class="text-black">Book Consult</span>
+                  <span><i class="fa-solid fa-arrow-right bg-black  lg:w-9 w-8 h-8 lg:h-9 px-1 py-2 -rotate-45 rounded-full"></i></span>
+                </button>
+              </div>
+          </div>
+      </footer>
+      <script src="animate.js"></script>
 </body>
 </html>
