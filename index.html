@@ -45,6 +45,9 @@
   font-weight: weight;
   font-style: normal;
 }
+body{
+  overflow-x: hidden;
+}
 
     </style>
 
@@ -134,15 +137,17 @@
             <div class="hero bg-base-200 ">
               <div class="hero-content text-center">
                 <div class="container mx-auto">
-                    <div   class=" lg:w-8/12 mx-auto  ">
+                    <div   class=" lg:w-8/12 mx-auto  " style="background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);">
                       <img class=" w-[600px] lg:w-[710px] h-auto object-contain"  src="./B10-Assignment-03/assets/banner.png" alt="">
                     </div>
                   <h1   class=" w-full text-3xl lg:text-6xl font-extrabold ">A barn house of this design has a striking appearance</h1>
-                  <p class="py-6 scale-110 text-lg font-medium opacity-60">
+                  <p class="py-6 scale-110 text-lg font-medium opacity-60 p-5">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, <br>
                      and large windows that flood the space with natural light.
                   </p>
-                  <button class="btn shadow-2xl shadow-lime-600/80 border-green-200 bg-lime-200 font-extrabold text-2xl scroll-py-8  px-14 h-16 text-center">View Details</button>
+                   <button class="bg-lime-200 lg:px-11 px-8 py-3 lg:py-5 rounded-2xl hover:bg-lime-500  hover:scale-110 transition-colors duration-300 ease-in-out ">
+                    <h1 class="text-xl font-extrabold">View Details <i class="fa-solid fa-arrow-right translate-x-2 bg-lime-500 h-9 w-9 -rotate-45 rounded-full px-3 py-2 hover:bg-black hover:text-white"></i></h1>
+                   </button>
                 </div>
               </div>
             </div>
@@ -155,43 +160,43 @@
             <img class="w-52  " src="./B10-Assignment-03/assets/Vector.png" alt="">
           </div>
           <div class="hero bg-base-200 ">
-            <div class="hero-content flex flex-col   lg:flex-row-reverse">
+            <div class="hero-content flex flex-col-reverse   lg:flex-row-reverse">
                <img class="lg:w-[573px] lg:h-[545px] lg:translate-x-14  object-cover" src="./B10-Assignment-03/assets/Rectangle.png" alt="">
               <div class="lg:space-y-8 space-y-5">
                 <!-- content-->
-                 <div  class="flex flex-col lg:-translate-y-9 justify-start items-start">
-                   <h4 class="text-lg font-bold  -translate-y-3"><i class="fa-solid fa-arrow-right "></i>About Us</h4>
-                   <h1 class="lg:text-6xl text-3xl  font-extrabold
-                      ">We design thoughtful, liveable spaces</h1>
-                   <p class="mt-5 lg:text-lg text-base opacity-75 font-medium ">Discover your dream home with our expert guidance. Explore detailed market insights, personalized advice, and stunning property listings today.</p>
+                <div  class="flex flex-col lg:-translate-y-9 justify-start items-start">
+                  <h4 class="text-lg font-bold  -translate-y-3"><i class="fa-solid fa-arrow-right "></i>About Us</h4>
+                  <h1 class="lg:text-6xl text-3xl  font-extrabold
+                     ">We design thoughtful, liveable spaces</h1>
+                  <p class="mt-5 lg:text-lg text-base opacity-75 font-medium ">Discover your dream home with our expert guidance. Explore detailed market insights, personalized advice, and stunning property listings today.</p>
 
-                 </div>
+                </div>
                  <!-- flex -content-->
-                  <div>
+                  <div class=" shadow-md shadow-gray-400/90 rounded-xl bg-white text-black ">
                     <!-- card1-->
-                    <div class="shadow-2xl shadow-gray-300/50 border h-[100px] border-gray-400 lg:p-5 py-3 rounded-md   flex gap-x-3 justify-center items-center">
-                      <div>
-                        <img class="w-93" src="./B10-Assignment-03/assets/commercial.png" alt="">
+                    <div class="  h-[100px]  lg:p-5 py-3 rounded-md   flex gap-x-3 justify-center items-center">
+                      <div class="">
+                        <img class="lg:w-16 w-[110px]  translate-x-2 " src="./B10-Assignment-03/assets/commercial.png" alt="">
                       </div>
                       <div>
-                        <h2 class="lg:text-2xl text-lg font-bold 
-                        text-transparent bg-clip-text bg-gradient-to-r from-lime-600 to-lime-400 to-80%">Commercial</h2>
-                        <p class="text-base font-semibold opacity-70">Discover your perfect home or sell your property fast with our intuitive real estate website.</p>
+                        <h2 class="lg:text-2xl text-xl  font-extrabold
+                        text-transparent bg-clip-text bg-gradient-to-r from-lime-600 to-lime-400 to-80% px-6">Commercial</h2>
+                        <p class="lg:text-base text-[14px] lg:font-semibold font-medium opacity-70 px-6">Discover your perfect home or sell your property fast with our intuitive real estate </p>
                       </div>
                     </div>
                     <!-- card2-->
 
                   </div>
-                  <div>
+                  <div class="shadow-md shadow-gray-400/90 rounded-xl bg-white text-black ">
                     <!-- card1-->
-                    <div class=" shadow-2xl shadow-gray-300/50 border h-[100px] border-gray-400 lg:p-5 py-3  rounded-md   flex gap-x-3 justify-center items-center">
+                    <div class="  h-[100px]  lg:p-5 py-3  rounded-md   flex gap-x-3 justify-center items-center">
                       <div>
-                        <img class="w-[93px]" src="./B10-Assignment-03/assets/residential.png" alt="">
+                        <img class="lg:w-20 w-[110px]  translate-x-2" src="./B10-Assignment-03/assets/residential.png" alt="">
                       </div>
                       <div>
-                        <h2 class="lg:text-2xl text-lg font-bold 
-                        text-transparent bg-clip-text bg-gradient-to-r from-lime-600 to-lime-400 to-80%">Residential</h2>
-                        <p class="text-base font-semibold opacity-70"> Find your dream home or sell your property effortlessly with our user-friendly real estate platform.</p>
+                        <h2 class="lg:text-2xl text-xl font-extrabold 
+                        text-transparent bg-clip-text bg-gradient-to-r from-lime-600 to-lime-400 to-80% px-6">Residential</h2>
+                        <p class="lg:text-base text-[14px] lg:font-semibold font-medium opacity-70 px-6"> Find your dream home or sell your property effortlessly with our user-friendly real </p>
                       </div>
                     </div>
                     <!-- card2-->
@@ -208,25 +213,25 @@
         flex justify-center items-center lg:gap-9 gap-9 h-auto">
           <!--child grid-->
           <div class="w-[261px] h-[175px] rounded-xl
-          flex flex-col justify-center items-center bg-lime-50">
+          flex  flex-col justify-center items-center bg-lime-50">
              <i><i class="fa-regular fa-message text-4xl text-rose-500"></i></i>
              <span class="text-4xl font-extrabold">235+</span>
              <p class="text-lg font-semibold opacity-90">Happy Client Review</p>
           </div>
           <div class="w-[261px] h-[175px] rounded-xl 
-          flex flex-col justify-center items-center bg-sky-50">
+          flex  flex-col justify-center items-center bg-sky-50">
             <i><i class="fa-solid fa-building text-4xl text-yellow-500"></i></i>
             <span class="text-4xl font-extrabold">50+</span>
             <p class="text-lg font-semibold opacity-90">Work Departments</p>
          </div>
          <div class="w-[261px] h-[175px] rounded-xl
-         flex flex-col justify-center items-center bg-pink-50">
+         flex  flex-col justify-center items-center bg-pink-50">
           <i><i class="fa-solid fa-people-roof  text-4xl text-violet-500"></i></i>
           <span class="text-4xl font-extrabold">30k+</span>
           <p class="text-lg font-semibold opacity-90">Our Happy Client</p>
        </div>
        <div class="w-[261px] h-[175px] rounded-xl 
-       flex flex-col justify-center items-center bg-teal-50">
+       flex  flex-col justify-center items-center bg-teal-50">
         <i><i class="fa-solid fa-clipboard-user  text-4xl text-fuchsia-500"></i></i>
         <span class="text-4xl font-extrabold">307+</span>
         <p class="text-lg font-semibold opacity-90">Staff Members</p>
@@ -248,34 +253,34 @@
        </section>
 
      <!-- card section -->
-      <section class="lg:mt-8">
-        <div class="container mx-auto lg:w-8/12 w-11/12  lg:p-11 px-3 h-auto  
-        flex lg:gap-x-6 gap-5 flex-col lg:flex-row">
-          <div class=" w-[277px]  h-[220px] bg-pink-200 space-y-3                   px-6 py-4 rounded-xl">
-            <img src="./B10-Assignment-03/assets/concept.png" alt="">
-            <h3 class="text-xl font-medium">concept</h3>
-            <p class="text-base font-extralight">Discover your dream home  <br>
-               curated listings.
-               Find comfort and style today!</p>
-          </div>
-          <div class=" w-[277px] h-[220px] bg-yellow-200 space-y-3                   px-6 py-4 rounded-xl">
-            <img src="./B10-Assignment-03/assets/flow-chart.png" alt="">
-            <h3 class="text-xl font-medium">Design Process</h3>
-            <p class="text-base font-extralight">"Explore stunning homes tailored to your lifestyle. Find your perfect match now!"</p>
-          </div>
-          <div class=" w-[277px] h-[220px] bg-green-200 space-y-3                   px-6 py-4 rounded-xl">
-            <img src="./B10-Assignment-03/assets/vision.png" alt="">
-            <h3 class="text-xl font-medium">Supervision</h3>
-            <p class="text-base font-extralight">Find your perfect home with ease. Browse listings and discover your ideal space."</p>
-
-          </div>
-          <div class=" w-[277px] h-[220px] bg-sky-200 space-y-3                   px-6 py-4 rounded-xl">
-            <img src="./B10-Assignment-03/assets/budget-planning.png" alt="">
-            <h3 class="text-xl font-medium">Budget Planning</h3>
-            <p class="text-base font-extralight">"Explore top properties and find your dream home. Start your search with us</p>
-          </div>
+     <section class="lg:mt-8">
+      <div class="container mx-auto lg:w-8/12 w-11/12  lg:p-11 px-3 h-auto   mt-6
+      flex lg:gap-x-6 gap-5 flex-col lg:flex-row">
+        <div class=" w-[277px]  h-[220px] bg-pink-200 space-y-3                   px-6 py-4 rounded-xl">
+          <img src="./B10-Assignment-03/assets/concept.png" alt="">
+          <h3 class="text-xl font-medium">concept</h3>
+          <p class="text-base font-extralight">Discover your dream home  <br>
+             curated listings.
+             Find comfort and style today!</p>
         </div>
-      </section>
+        <div class=" w-[277px] h-[220px] bg-yellow-200 space-y-3                   px-6 py-4 rounded-xl">
+          <img src="./B10-Assignment-03/assets/flow-chart.png" alt="">
+          <h3 class="text-xl font-medium">Design Process</h3>
+          <p class="text-base font-extralight">"Explore stunning homes tailored to your lifestyle. Find your perfect match now!"</p>
+        </div>
+        <div class=" w-[277px] h-[220px] bg-green-200 space-y-3                   px-6 py-4 rounded-xl">
+          <img src="./B10-Assignment-03/assets/vision.png" alt="">
+          <h3 class="text-xl font-medium">Supervision</h3>
+          <p class="text-base font-extralight">Find your perfect home with ease. Browse listings and discover your ideal space."</p>
+
+        </div>
+        <div class=" w-[277px] h-[220px] bg-sky-200 space-y-3                   px-6 py-4 rounded-xl">
+          <img src="./B10-Assignment-03/assets/budget-planning.png" alt="">
+          <h3 class="text-xl font-medium">Budget Planning</h3>
+          <p class="text-base font-extralight">"Explore top properties and find your dream home. Start your search with us</p>
+        </div>
+      </div>
+    </section>
 
       <!-- content section-->
    
@@ -302,7 +307,7 @@
 
         <div class="container mx-auto lg:w-8/12 w-9/12 
         flex justify-center items-center gap-7 flex-wrap lg:mt-30 mt-16">
-          <div class=" flex lg:w-[65%] justify-evenly items-center  lg:flex-row flex-col lg:gap-0 gap-y-9
+          <div class=" flex lg:w-[65%] justify-evenly items-center  lg:flex-row flex-col lg:gap-0 gap-y-9 shadow-md shadow-gray-400/90 p-3
           shadow-lg rounded-xl">
             <!-- image section-->
             <div>
@@ -322,19 +327,20 @@
              </div>
           </div>
           <!-- 3rd image section-->
-           <div>
+           <div class="shadow-md shadow-gray-400/90 p-2 rounded-xl">
             <img src="./B10-Assignment-03/assets/img2.png" alt="">
            </div>
-           <div>
+           <div class="shadow-md shadow-gray-400/90 p-2">
+            <img class="lg:w-[250px] lg:hidden block w-[500px] h-[175px] rounded-xl lg:h-[175px] lg:rounded-xl object-cover" src="./B10-Assignment-03/assets/img5.png" alt="">
+           </div>
+           <div class="shadow-md shadow-gray-400/90 p-2 rounded-lg">
             <img class="lg:w-[250px] w-[500px] h-[175px] rounded-xl lg:h-[175px] lg:rounded-xl object-cover" src="./B10-Assignment-03/assets/img3.png" alt="">
            </div>
 
            <!-- display hidden div-->
-           <div>
-            <img class="lg:w-[250px] lg:hidden block w-[500px] h-[175px] rounded-xl lg:h-[175px] lg:rounded-xl object-cover" src="./B10-Assignment-03/assets/img5.png" alt="">
-           </div>
-           <div class="flex lg:w-[50%] lg:flex-row lg:shadow-lg flex-col lg:gap-7 gap-3 justify-between items-center ">
-            <div>
+          
+           <div class="flex lg:w-[50%] lg:flex-row  flex-col lg:gap-7 gap-3 justify-between items-center shadow-md shadow-gray-400/90 p-4 rounded-2xl  ">
+            <div >
               <img class="lg:w-[500px] lg:h-[175px] lg:rounded-xl object-cover" src="./B10-Assignment-03/assets/img4.png" alt="">
             </div>
             <div class="lg:mt-0 mt-4 space-y-2">
@@ -349,7 +355,7 @@
              </div>
 
            </div>
-           <div>
+           <div class="shadow-md shadow-gray-400/90 p-2 rounded-xl">
             <img class="lg:w-[250px] w-[500px] h-[175px] rounded-xl lg:h-[175px] lg:rounded-xl object-cover" src="./B10-Assignment-03/assets/img5.png" alt="">
            </div>
         </div>
@@ -380,8 +386,8 @@
        <section class="mt-28">
          <!-- house card section-->
          <div class="flex lg:flex-row flex-col gap-12 justify-center items-center 
-         container mx-auto lg:w-8/12 w-11/12 h-auto shadow-xl ">
-          <div>
+         container mx-auto lg:w-8/12 w-11/12 h-auto  ">
+          <div class="shadow-lg shadow-gray-400/70 px-3 py-3 rounded-2xl ">
             <!-- img -->
              <img src="./B10-Assignment-03/assets/article1.png" alt="">
              <!-- icon flex-->
@@ -395,7 +401,7 @@
                 blend of rustic charm and modern. </p>
               <h3 class="lg:text-xl text-lg font-bold ">Read More <i class="fa-solid fa-arrow-right bg-lime-400 p-2 rounded-full -rotate-45"></i></h3>
          </div>
-         <div>
+         <div class="shadow-lg shadow-gray-400/70 px-3 py-3 rounded-2xl ">
           <!-- img -->
            <img src="./B10-Assignment-03/assets/article2.png" alt="">
            <!-- icon flex-->
@@ -409,7 +415,7 @@
               blend of rustic charm and modern. </p>
             <h3 class="lg:text-xl text-lg font-bold ">Read More <i class="fa-solid fa-arrow-right bg-lime-400 p-2 rounded-full -rotate-45"></i></h3>
        </div>
-       <div>
+       <div class="shadow-lg shadow-gray-400/70 px-3 py-3 rounded-2xl ">
         <!-- img -->
          <img src="./B10-Assignment-03/assets/article3.png" alt="">
          <!-- icon flex-->
@@ -429,7 +435,7 @@
       <!-- input  section-->
        <section class="mt-40">
 
-        <div class="bg-[url('./B10-Assignment-03/assets/bg.jpg')] container mx-auto lg:w-full opacity-65 h-[904px]  ">
+        <div class="bg-[url('./B10-Assignment-03/assets/bg.jpg')] container mx-auto lg:w-full opacity-70 h-[904px] lg:px-2  ">
              <div class="text-center space-y-6 mt-10">
               <button class="bg-lime-200 px-8 py-4 rounded-xl text-xl font-bold  hover:bg-lime-600 hover:scale-110 transition-colors duration-300 ease-in-out"><i class="fa-solid fa-arrow-right -translate-x-2"></i>Let’s Connect</button>
               <h1 class=" lg:text-6xl text-3xl font-extrabold text-black z-10">Let’s Discuss Next Project</h1>
@@ -438,27 +444,27 @@
              </div>
 
              <!--- input section has been started -->
-             <div class="container grid lg:grid-cols-2 grid-cols-1 lg:w-5/12  mt-20 mx-auto lg:gap-x-1 lg:gap-y-4 gap-6 lg:px-0 px-3">
+             <div class="container grid lg:grid-cols-2 grid-cols-1 lg:w-5/12  mt-20 mx-auto lg:gap-x-1 lg:gap-y-4 gap-6 lg:px-0 px-10">
               
-               <div>
-                <input class="px-14 py-4 rounded-xl text-center border border-red-700 shadow-xl" type="text" placeholder="Frist Name*">
+               <div class="">
+                <input class="px-14 py-4 rounded-xl text-base font-bold text-center shadow-2xl shadow-gray-400/90 bg-white text-black border border-lime-200 " type="text" placeholder="Frist Name*">
                </div>
               
               
                <div>
-                <input class="px-14 py-4 rounded-xl text-center border border-red-700 shadow-xl" type="text" placeholder="Frist Name*">
+                <input class="px-14 py-4 rounded-xl text-center text-base font-bold shadow-2xl shadow-gray-400/90 bg-white text-black border border-lime-200" type="text" placeholder="Frist Name*">
                </div>
               
               
                <div>
-                <input  class="px-14 py-4 rounded-xl text-center border border-red-700 shadow-xl" type="tel" placeholder="Phone Number*">
+                <input  class="px-14 py-4 rounded-xl text-center text-base font-bold shadow-2xl shadow-gray-400/90 bg-white text-black border border-lime-200" type="tel" placeholder="Phone Number*">
                </div>
               
               <div>
-                <input class="px-14 py-4 rounded-xl text-center border border-red-700 shadow-xl " type="email" placeholder="Email Number*">
+                <input class="px-14 py-4 rounded-xl  text-base font-bold    text-center shadow-2xl shadow-gray-400/90 bg-white text-black border border-lime-200" type="email" placeholder="Email Number*">
               </div>
               <div>
-                <textarea class="lg:px-44 mx-auto px-4  text-center lg:py-5 py-10 rounded-xl border border-lime-600 shadow-xl" name="message" rows="10" cols="30" >
+                <textarea class="lg:px-44 mx-auto px-4 text-base font-bold  lg:py-5 py-10 rounded-xl  text-center shadow-2xl shadow-gray-400/90 bg-white text-black border border-lime-100 opacity-50 text-2xl" name="message" rows="10" cols="30" >
                   Write your message here
                   </textarea>
                   <button class="flex gap-4 justify-center items-center bg-lime-400 shadow-2xl  shadow-lime-300  hover:bg-lime-600 hover:scale-110 transition-colors duration-300 ease-in-out
